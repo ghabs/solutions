@@ -50,7 +50,7 @@ class Solution:
     def parse(self):
         comp = []
         stack = []
-        with open("data/dayeight.txt", 'r') as f:
+        with open("data/eight.txt", 'r') as f:
             for l in f:
                 "compToken, Variable, actionToken"
                 line = l.split(" ")

@@ -20,7 +20,7 @@ class Solution:
 
     def import_passphrases_2(self):
         counter = 0
-        with open("data/inputFour.txt", 'r') as f:
+        with open("data/four.txt", 'r') as f:
             for line in f:
                 l = line.split()
                 if len (l) == len(set(tuple(map(canon, l)))):

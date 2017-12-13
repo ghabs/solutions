@@ -21,7 +21,7 @@ class Solution:
         return summed      
 
 if __name__ == "__main__":
-    data = ImportData().text_import("data/daytwo.txt")
+    data = ImportData().text_import("data/two.txt")
     s = Solution()
     print(s.checksum([[1,2,3],[2,6]]))
     print(s.checksum_two(data))
